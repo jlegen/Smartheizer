@@ -24,9 +24,15 @@ Wemos D1 configuration in Tasmota:
 
 <img src="images/Tasmota-config.png" height=60% width=60%>
 
-You also need to decouple the "Switches" (which are the GPIO inputs) from the Relays (it seems like a sort of 'tradition' wit htasmota, that per default "Switch1" always triggers "Relay1" etc.).
-Open the Tasmota web on your Wemos, open the "Console" and enter:
+Some Tasmota configurations can be easily applied using the web console. 
 
+1) The GPIO polarity needs to be fixed:
+<pre>
+Backlog Switchmode1 2; Switchmode2 2; Switchmode3 2
+</pre>
+
+
+2) You also need to decouple the "Switches" (which are the GPIO inputs) from the Relays (it seems like a sort of 'tradition' with tasmota, that per default "Switch1" always triggers "Relay1" etc.).
 <pre>
 Rule1 on Switch1#state do Publish tele/tasmota_6E171C/SENSOR {"Time":"%timestamp%", "Burner":"%value%"} endon on Switch2#state do Publish tele/tasmota_6E171C/SENSOR {"Time":"%timestamp%", "Pump1":"%value%"} endon on Switch3#state do Publish tele/tasmota_6E171C/SENSOR {"Time":"%timestamp%", "Pump2":"%value%"} endon
 
