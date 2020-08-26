@@ -21,6 +21,7 @@
 ## Tasmota config
 
 Wemos D1 configuration in Tasmota:
+
 <img src="images/Tasmota-config.png" height=60% width=60%>
 
 You also need to decouple the "Switches" (which are the GPIO inputs) from the Relays (it seems like a sort of 'tradition' wit htasmota, that per default "Switch1" always triggers "Relay1" etc.).
