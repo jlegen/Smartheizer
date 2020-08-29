@@ -44,3 +44,6 @@ Btw, you don't even need to use these topics with your iobroker or other softwar
 
 It works! :-)
 <img src="images/8AC6BC32-7EAC-40B5-973C-2BA80A8D1718.jpeg">
+
+<img src="F044C39D-730C-4C8E-8950-9E403289A186.jpeg">
+
