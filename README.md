@@ -41,3 +41,9 @@ Rule1 1
 
 Of course, you may chose different topics for MQTT. 
 Btw, you don't even need to use these topics with your iobroker or other software - defining the "Rule1" alone enables Tasmota to send the switch states with MQTT as well.
+
+It works! :-)
+<img src="images/8AC6BC32-7EAC-40B5-973C-2BA80A8D1718.jpeg">
+
+<img src="images/2DB619B8-0DFF-4BAB-8C94-BF35DD0DF3BA.jpeg">
+
