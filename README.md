@@ -22,7 +22,7 @@
 
 Wemos D1 configuration in Tasmota:
 
-<img src="images/Tasmota-config.png" height=60% width=60%>
+![Tasmota Wemos Config](images/Tasmota-config.png)
 
 Some Tasmota configurations can be easily applied using the web console. 
 
